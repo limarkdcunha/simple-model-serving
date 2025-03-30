@@ -1,0 +1,23 @@
+[project]
+name = "simple-model-serving"
+version = "0.1.0"
+description = "Simple project for model serving."
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi (>=0.115.12,<0.116.0)",
+    "torch (>=2.6.0,<3.0.0)",
+    "torchvision (>=0.21.0,<0.22.0)",
+    "uvicorn (>=0.34.0,<0.35.0)",
+    "pillow (>=11.1.0,<12.0.0)",
+    "python-multipart (>=0.0.20,<0.0.21)",
+    "transformers (>=4.50.3,<5.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

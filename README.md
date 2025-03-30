@@ -1,0 +1,1 @@
+Simple project for optimzing model serving starting with a simple Distilled BERT model.
